@@ -1,10 +1,17 @@
 /* Estilo personalizado */
 
+/* Cor de fundo azul escuro em toda a página */
 body {
     font-family: Arial, sans-serif;
+    background-color: #0a0f2c; /* Azul bem escuro */
+    color: white; /* Texto branco para contraste */
 }
 
 /* Navbar */
+.navbar {
+    background-color: #080c24 !important; /* Navbar azul bem escuro */
+}
+
 .navbar-brand {
     font-weight: bold;
     font-size: 1.8rem;
@@ -12,15 +19,16 @@ body {
 
 .nav-link {
     margin-right: 20px;
+    color: white !important;
 }
 
 .nav-link:hover {
-    color: #4e5097;
+    color: #ffc107 !important; /* Amarelo no hover */
 }
 
 /* Hero com imagem */
 .hero-image {
-    background: url('../images/banner  isaac.jfif') no-repeat center center;
+    background: url('../images/banner isaac.jfif') no-repeat center center;
     background-size: cover;
     height: 500px;
     position: relative;
@@ -31,30 +39,79 @@ body {
     height: 100%;
 }
 
+/* Seções */
+section {
+    padding: 60px 0;
+}
+
 /* Sobre */
 #sobre h2 {
     margin-bottom: 20px;
 }
 
+#sobre {
+    background-color: #0a0f2c; /* Fundo azul escuro */
+}
+
 /* Projetos */
+#projetos {
+    background-color: #12173a; /* Um azul um pouco diferente para destacar */
+}
+
 #projetos h2 {
     margin-bottom: 30px;
 }
 
 .card {
+    background-color: #1b214f;
+    color: white;
+    border: none;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgb(38, 0, 255);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.5);
 }
 
 /* Contato */
+#contato {
+    background-color: #0a0f2c;
+}
+
 #contato h2 {
     margin-bottom: 20px;
 }
 
+form .form-control {
+    background-color: #1b214f;
+    border: none;
+    color: white;
+}
+
+form .form-control::placeholder {
+    color: #cccccc;
+}
+
+form .form-control:focus {
+    background-color: #1b214f;
+    color: white;
+}
+
+/* Botão */
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #084298;
+}
+
+/* Footer */
 footer {
-    margin-top: 40px;
+    background-color: #080c24;
+    color: white;
+    padding: 20px 0;
+    margin-top: 0;
 }
