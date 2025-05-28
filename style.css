@@ -1,104 +1,60 @@
-/* Estilo personalizado */
-
-/* Fundo azul escuro */
+/* Estilo geral */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #0a0f2c;
-    color: rgb(0, 0, 0);
+    background-color: #0d1117;
 }
 
-/* Navbar */
-.navbar {
-    background-color: #080c24 !important;
-}
-
-.navbar-brand {
-    font-weight: bold;
-    font-size: 1.8rem;
-}
-
-.nav-link {
-    margin-right: 20px;
-    color: rgb(0, 0, 0) !important;
-}
-
-.nav-link:hover {
-    color: #ffc107 !important;
+/* Hero Section */
+.hero {
+    background-color: #0d1117;
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* Seções */
 section {
-    padding: 60px 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
-/* Sobre */
-#sobre {
-    background-color: #0a0f2c;
+/* Textos */
+h1, h2, h3, h5 {
+    color: #f0f6fc;
 }
 
-#sobre h2 {
-    margin-bottom: 20px;
+p, label {
+    color: #c9d1d9;
 }
 
-/* Projetos */
-#projetos {
-    background-color: #12173a;
+/* Navbar */
+.navbar {
+    background-color: #161b22 !important;
 }
 
-#projetos h2 {
-    margin-bottom: 30px;
+.nav-link {
+    color: #c9d1d9 !important;
 }
 
+.nav-link:hover {
+    color: #58a6ff !important;
+}
+
+.navbar-brand {
+    color: #f0f6fc !important;
+}
+
+/* Cards */
 .card {
-    background-color: #1b214f;
-    color: rgb(4, 0, 255);
     border: none;
-    transition: transform 0.3s, box-shadow 0.3s;
+    transition: transform 0.3s;
 }
 
 .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0,0,0,0.5);
-}
-
-/* Contato */
-#contato {
-    background-color: #0a0f2c;
-}
-
-#contato h2 {
-    margin-bottom: 20px;
-}
-
-form .form-control {
-    background-color: #1b214f;
-    border: none;
-    color: white;
-}
-
-form .form-control::placeholder {
-    color: #cccccc;
-}
-
-form .form-control:focus {
-    background-color: #1b214f;
-    color: white;
-}
-
-/* Botão */
-.btn-primary {
-    background-color: #0d6efd;
-    border: none;
-}
-
-.btn-primary:hover {
-    background-color: #084298;
+    transform: scale(1.03);
 }
 
 /* Footer */
 footer {
-    background-color: #080c24;
-    color: white;
-    padding: 20px 0;
-    margin-top: 0;
+    background-color: #161b22;
 }
