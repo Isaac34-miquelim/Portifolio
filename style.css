@@ -1,15 +1,15 @@
 /* Estilo personalizado */
 
-/* Cor de fundo azul escuro em toda a página */
+/* Fundo azul escuro */
 body {
     font-family: Arial, sans-serif;
-    background-color: #0a0f2c; /* Azul bem escuro */
-    color: white; /* Texto branco para contraste */
+    background-color: #0a0f2c;
+    color: white;
 }
 
 /* Navbar */
 .navbar {
-    background-color: #080c24 !important; /* Navbar azul bem escuro */
+    background-color: #080c24 !important;
 }
 
 .navbar-brand {
@@ -23,20 +23,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #ffc107 !important; /* Amarelo no hover */
-}
-
-/* Hero com imagem */
-.hero-image {
-    background: url('../images/banner isaac.jfif') no-repeat center center;
-    background-size: cover;
-    height: 500px;
-    position: relative;
-}
-
-.hero-image .overlay {
-    background-color: rgba(0, 0, 0, 0.4);
-    height: 100%;
+    color: #ffc107 !important;
 }
 
 /* Seções */
@@ -45,17 +32,17 @@ section {
 }
 
 /* Sobre */
+#sobre {
+    background-color: #0a0f2c;
+}
+
 #sobre h2 {
     margin-bottom: 20px;
 }
 
-#sobre {
-    background-color: #0a0f2c; /* Fundo azul escuro */
-}
-
 /* Projetos */
 #projetos {
-    background-color: #12173a; /* Um azul um pouco diferente para destacar */
+    background-color: #12173a;
 }
 
 #projetos h2 {
