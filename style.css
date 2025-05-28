@@ -1,0 +1,60 @@
+/* Estilo personalizado */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.nav-link {
+    margin-right: 20px;
+}
+
+.nav-link:hover {
+    color: #4e5097;
+}
+
+/* Hero com imagem */
+.hero-image {
+    background: url('../images/banner  isaac.jfif') no-repeat center center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.hero-image .overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+}
+
+/* Sobre */
+#sobre h2 {
+    margin-bottom: 20px;
+}
+
+/* Projetos */
+#projetos h2 {
+    margin-bottom: 30px;
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgb(38, 0, 255);
+}
+
+/* Contato */
+#contato h2 {
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 40px;
+}
